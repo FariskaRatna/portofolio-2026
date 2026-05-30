@@ -5,7 +5,6 @@ function Contact() {
   return (
     <section className="w-[95%] mx-auto mb-4" id="contact">
       
-      {/* Tambahan animasi CSS */}
       <style>{`
         @keyframes breathe {
           0%, 100% { opacity: 0.4; transform: scale(1); }
@@ -14,12 +13,8 @@ function Contact() {
         .animate-breathe { animation: breathe 4s ease-in-out infinite; }
       `}</style>
 
-      {/* Main Container */}
       <div className="flex flex-col lg:flex-row gap-10 bg-gradient-to-br from-[#020513]/90 to-[#010208]/90 backdrop-blur-2xl rounded-[2.5rem] border border-blue-800/30 p-8 lg:p-10 shadow-[0_0_50px_rgba(0,0,0,0.6)] transition-all">
         
-        {/* =========================================
-            KOLOM KIRI: Let's Connect & Socials
-        ========================================= */}
         <div className="flex flex-col lg:w-[28%] justify-center">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-3.5 h-3.5 bg-blue-500 rounded-full shadow-[0_0_12px_#3b82f6] animate-pulse"></span>
@@ -44,9 +39,6 @@ function Contact() {
           </div>
         </div>
 
-        {/* =========================================
-            KOLOM TENGAH: Contact Form
-        ========================================= */}
         <div className="flex flex-col gap-5 lg:w-[47%]">
           <div className="flex flex-col sm:flex-row gap-5">
             <input 
@@ -72,20 +64,14 @@ function Contact() {
           </div>
         </div>
 
-        {/* =========================================
-            KOLOM KANAN: Amazing Box (Dirombak Total!)
-        ========================================= */}
         <div className="lg:w-[25%] relative rounded-3xl border border-blue-600/30 bg-[#030712]/60 backdrop-blur-xl overflow-hidden flex items-center justify-center p-8 text-center shadow-[0_0_30px_rgba(0,0,0,0.5),inset_0_0_20px_rgba(59,130,246,0.15)] group transition-all duration-500 hover:border-blue-500/50 hover:bg-[#040a1d]/80">
           
-          {/* Ambient Orbs (Bulat Cahaya Lembut, Bukan Kotak) */}
           <div className="absolute -top-10 -right-10 w-48 h-48 bg-blue-500/15 blur-[50px] rounded-full animate-breathe"></div>
           <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-indigo-500/15 blur-[50px] rounded-full animate-breathe" style={{ animationDelay: '2s' }}></div>
           
-          {/* Sci-Fi HUD Corners (Garis siku elegan, menggantikan gradient kotak) */}
           <div className="absolute top-5 left-5 w-4 h-4 border-t-2 border-l-2 border-blue-500/50 rounded-tl-md transition-all duration-500 group-hover:w-8 group-hover:h-8 group-hover:border-blue-400"></div>
           <div className="absolute bottom-5 right-5 w-4 h-4 border-b-2 border-r-2 border-blue-500/50 rounded-br-md transition-all duration-500 group-hover:w-8 group-hover:h-8 group-hover:border-blue-400"></div>
           
-          {/* Background Dotted Pattern (Lebih Transparan & Fokus di Tengah) */}
           <div className="absolute inset-0 opacity-20 pointer-events-none" 
                style={{
                  backgroundImage: 'radial-gradient(rgba(59,130,246,0.6) 1px, transparent 1px)',
@@ -95,7 +81,6 @@ function Contact() {
                }} 
           />
 
-          {/* Text Content */}
           <h3 className="relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-blue-100 to-blue-400 font-sora font-semibold text-2xl leading-[1.6] drop-shadow-[0_0_15px_rgba(59,130,246,0.5)] group-hover:scale-105 transition-transform duration-500">
             Let's build<br />something<br />amazing<br />together! 🚀
           </h3>

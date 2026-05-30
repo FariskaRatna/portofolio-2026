@@ -45,7 +45,6 @@ function Skills() {
   return (
     <div className="flex flex-col h-full bg-[#020513]/80 rounded-[2rem] border border-blue-900/40 p-8 shadow-lg hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] transition-all">
       
-      {/* Header */}
       <div className="flex items-center gap-3 mb-8">
         <span className="w-3 h-3 bg-blue-500 rounded-full shadow-[0_0_12px_#3b82f6]"></span>
         <h2 className="text-2xl font-sora font-bold text-white tracking-wide">Skills</h2>

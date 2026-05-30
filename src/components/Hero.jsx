@@ -7,7 +7,6 @@ function Hero() {
   return (
     <section className="w-[95%] mx-auto mt-4 mb-6" id="hero">
       
-      {/* Keyframe styles */}
       <style>{`
         @keyframes blink {
           0%, 100% { opacity: 1; }
@@ -30,7 +29,6 @@ function Hero() {
         .radar-spin    { animation: radarSpin 8s linear infinite; }
       `}</style>
 
-      {/* Main Container */}
       <div className="relative w-full rounded-[2.5rem] border border-blue-900/30 bg-[#01030b]/90 backdrop-blur-2xl flex flex-col lg:flex-row items-center justify-between overflow-hidden shadow-[0_0_80px_rgba(0,0,0,0.9)]"
            style={{ minHeight: '560px' }}>
 
@@ -46,9 +44,6 @@ function Hero() {
           <div className="absolute bg-blue-300 rounded-full" style={{ width:'3px', height:'3px', top:'50%', left:'38%', opacity:0.5, animation:'blink 3s 1.5s infinite' }} />
         </div>
 
-        {/* ══════════════════════════════════════
-            LEFT — Main content
-        ══════════════════════════════════════ */}
         <div className="relative z-20 w-full lg:w-[48%] flex flex-col gap-5 p-8 lg:pl-14 lg:py-14">
           <div className="flex items-center gap-2 mb-1">
             <span className="text-blue-400 text-xs font-sora font-semibold tracking-[0.18em] uppercase drop-shadow-[0_0_8px_rgba(59,130,246,0.9)]">
@@ -100,9 +95,7 @@ function Hero() {
           </div>
         </div>
 
-        {/* ══════════════════════════════════════
-            RIGHT — Avatar cyberpunk
-        ══════════════════════════════════════ */}
+
         <div className="relative z-10 w-full lg:w-[52%] flex justify-center items-center mt-12 lg:mt-0 self-stretch"
              style={{ minHeight: '520px' }}> 
 

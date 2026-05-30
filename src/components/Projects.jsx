@@ -103,7 +103,6 @@ function Projects() {
     <section className="w-[95%] mx-auto mb-6" id="projects">
       <div className="relative w-full rounded-[2.5rem] border border-blue-900/30 bg-[#01030b]/90 backdrop-blur-xl p-8 lg:p-10 shadow-[0_0_60px_rgba(0,0,0,0.8)]">
         
-        {/* Header Section */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-10 gap-4">
           <div className="flex items-center gap-3">
             <span className="w-3.5 h-3.5 bg-blue-500 rounded-full shadow-[0_0_12px_#3b82f6] animate-pulse" />
@@ -117,10 +116,8 @@ function Projects() {
           </button>
         </div>
 
-        {/* Slider Area */}
         <div className="relative flex items-center group">
           
-          {/* Tombol Kiri (Otomatis hilang jika di halaman pertama atau maxIndex 0) */}
           {activeIndex > 0 && maxIndex > 0 && (
             <button 
               onClick={slideLeft}
@@ -130,7 +127,6 @@ function Projects() {
             </button>
           )}
 
-          {/* Cards Wrapper */}
           <div 
             ref={sliderRef}
             onScroll={handleScroll}
@@ -172,7 +168,6 @@ function Projects() {
             ))}
           </div>
 
-          {/* Tombol Kanan (Otomatis hilang jika mentok kanan atau maxIndex 0) */}
           {activeIndex < maxIndex && maxIndex > 0 && (
             <button 
               onClick={slideRight}
@@ -184,7 +179,6 @@ function Projects() {
           
         </div>
 
-        {/* Dynamic Pagination Dashes (Hanya muncul jika butuh di-scroll) */}
         {maxIndex > 0 && (
           <div className="flex justify-center items-center gap-2 mt-8">
             {Array.from({ length: maxIndex + 1 }).map((_, idx) => (

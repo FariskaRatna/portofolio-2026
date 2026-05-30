@@ -45,7 +45,6 @@ function Education() {
 
         <div className="absolute w-40 h-40 bg-blue-600/15 blur-[60px] rounded-full group-hover:bg-blue-500/25 transition-all duration-700"></div>
 
-        {/* Ilustrasi diperbesar */}
         <div className="hidden md:flex w-[80%] items-center justify-center relative group">
           <img 
             src={eduImg}
