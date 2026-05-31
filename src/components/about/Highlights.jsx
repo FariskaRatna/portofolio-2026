@@ -30,7 +30,7 @@ function Highlights() {
   ];
 
   return (
-    <div className="flex flex-col h-full bg-[#020513]/80 rounded-[2rem] border border-blue-900/40 p-8 shadow-lg hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] transition-all">
+    <div className="flex flex-col h-full bg-[#01030b]/90 rounded-[2rem] border border-[#1e3a8a]/40 backdrop-blur-2xl p-8 hover:border-blue-500/30 shadow-[0_0_15px_rgba(30,58,138,0.2)_inset,0_0_20px_rgba(30,58,138,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.2)] transition-all duration-500">
       
       <div className="flex items-center gap-3 mb-8">
         <span className="w-3 h-3 bg-blue-500 rounded-full shadow-[0_0_12px_#3b82f6]"></span>

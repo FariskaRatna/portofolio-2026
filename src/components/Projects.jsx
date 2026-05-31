@@ -101,7 +101,7 @@ function Projects() {
 
   return (
     <section className="w-[95%] mx-auto mb-6" id="projects">
-      <div className="relative w-full rounded-[2.5rem] border border-blue-900/30 bg-[#01030b]/90 backdrop-blur-xl p-8 lg:p-10 shadow-[0_0_60px_rgba(0,0,0,0.8)]">
+      <div className="relative w-full rounded-[2.5rem] border border-[#1e3a8a]/40 bg-[#01030b]/90 backdrop-blur-2xl p-8 lg:p-10 shadow-[0_0_20px_rgba(30,58,138,0.2)_inset,0_0_20px_rgba(30,58,138,0.3)] transition-all duration-500">
         
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-10 gap-4">
           <div className="flex items-center gap-3">

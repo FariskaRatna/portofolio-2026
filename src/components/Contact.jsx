@@ -13,7 +13,8 @@ function Contact() {
         .animate-breathe { animation: breathe 4s ease-in-out infinite; }
       `}</style>
 
-      <div className="flex flex-col lg:flex-row gap-10 bg-gradient-to-br from-[#020513]/90 to-[#010208]/90 backdrop-blur-2xl rounded-[2.5rem] border border-blue-800/30 p-8 lg:p-10 shadow-[0_0_50px_rgba(0,0,0,0.6)] transition-all">
+      {/* PERUBAHAN DI SINI: Border dan Shadow disamakan dengan gaya Navbar & Hero */}
+      <div className="flex flex-col lg:flex-row gap-10 bg-gradient-to-br from-[#020513]/90 to-[#010208]/90 backdrop-blur-2xl rounded-[2.5rem] border border-[#1e3a8a]/40 p-8 lg:p-10 shadow-[0_0_15px_rgba(30,58,138,0.2)_inset,0_0_20px_rgba(30,58,138,0.3)] hover:shadow-[0_0_20px_rgba(30,58,138,0.3)_inset,0_0_35px_rgba(30,58,138,0.4)] transition-all duration-500">
         
         <div className="flex flex-col lg:w-[28%] justify-center">
           <div className="flex items-center gap-3 mb-4">

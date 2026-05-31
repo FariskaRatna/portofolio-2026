@@ -29,7 +29,7 @@ function Hero() {
         .radar-spin    { animation: radarSpin 8s linear infinite; }
       `}</style>
 
-      <div className="relative w-full rounded-[2.5rem] border border-blue-900/30 bg-[#01030b]/90 backdrop-blur-2xl flex flex-col lg:flex-row items-center justify-between overflow-hidden shadow-[0_0_80px_rgba(0,0,0,0.9)]"
+      <div className="relative w-full rounded-[2.5rem] border border-[#1e3a8a]/40 bg-[#01030b]/90 backdrop-blur-2xl flex flex-col lg:flex-row items-center justify-between overflow-hidden shadow-[0_0_15px_rgba(30,58,138,0.2)_inset,0_0_20px_rgba(30,58,138,0.3)] transition-all duration-500"
            style={{ minHeight: '560px' }}>
 
         <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[900px] h-[900px] bg-blue-700/10 blur-[180px] rounded-full pointer-events-none" />

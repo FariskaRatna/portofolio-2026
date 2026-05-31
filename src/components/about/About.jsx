@@ -4,7 +4,7 @@ import laptopImg from '../../assets/edu.png';
 
 function About() {
   return (
-    <div className="flex flex-col h-full bg-[#020513]/80 rounded-[2rem] border border-blue-900/40 p-8 shadow-lg hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] transition-all relative overflow-hidden group">
+    <div className="flex flex-col h-full bg-[#01030b]/90 rounded-[2rem] border border-[#1e3a8a]/40 backdrop-blur-2xl hover:border-blue-500/30 p-8 shadow-[0_0_15px_rgba(30,58,138,0.2)_inset,0_0_20px_rgba(30,58,138,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.2)] transition-all duration-500 relative overflow-hidden group">
       
       <style>{`
         @keyframes float-slow {
@@ -29,7 +29,7 @@ function About() {
       
       <div className="mt-auto flex-1 flex justify-center items-center relative min-h-[180px] w-full">
         
-        <div className="absolute w-40 h-40 bg-blue-600/15 blur-[60px] rounded-full group-hover:bg-blue-500/25 transition-all duration-700"></div>
+        <div className="absolute w-40 h-40 bg-blue-600/15 blur-[60px] rounded-full group-hover:bg-blue-500/40 group-hover:blur-[70px] transition-all duration-500"></div>
         
         <div className="absolute inset-0 opacity-20 pointer-events-none" 
              style={{
